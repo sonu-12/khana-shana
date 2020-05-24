@@ -1,0 +1,242 @@
+@media screen and (min-width:200px) and (max-width:699px) {
+
+    *{
+        
+        box-sizing: border-box;
+        font-family: 'Chelsea Market', cursive;
+        
+        
+    }
+    
+    #logo-div{
+
+      background-color: rgb(146, 5, 5);
+      width: 100%;
+      height: 70px;
+      align-items: center;/* text-align: center; */
+      display: flex;
+      
+      padding-top: 1%;
+  }
+  #logo-div img{
+      max-width: 40px;
+      min-width: 30px;
+      height: auto;
+      position: absolute;
+      left: 5%;
+      
+    
+    
+  
+  }
+  #logo-div span{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #logo-div h1{
+      display: inline-block;
+      font-size: 30px;
+      color: white;
+      text-shadow: 15px 15px 15px black;
+      top: 0%;
+      position: relative;
+      font-family: lobster;
+      
+      
+      
+  }
+    
+    #container {
+        position:relative;
+        height:600px;
+        width:100%;
+      }
+      #container img {
+        position:absolute;
+        
+        width: 100%;
+        height: 600px;
+        z-index: -1;
+      }
+      @-webkit-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @-moz-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @-o-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       #container img {
+        -webkit-animation-name: imgFade;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 8s;
+      
+        -moz-animation-name: imgFade;
+        -moz-animation-timing-function: ease-in-out;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-duration: 8s;
+      
+        -o-animation-name: imgFade;
+        -o-animation-timing-function: ease-in-out;
+        -o-animation-iteration-count: infinite;
+        -o-animation-duration: 8s;
+      
+        animation-name: imgFade;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+      }
+    
+      #container img:nth-of-type(1) {
+        -webkit-animation-delay: 10s;
+        -moz-animation-delay: 10s;
+        -o-animation-delay: 10s;
+        animation-delay: 10s;
+      }
+      #container img:nth-of-type(2) {
+        -webkit-animation-delay: 8s;
+        -moz-animation-delay: 8s;
+        -o-animation-delay: 8s;
+        animation-delay: 8s;
+      }
+      #container img:nth-of-type(3) {
+        -webkit-animation-delay: 6s;
+        -moz-animation-delay: 6s;
+        -o-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      #container img:nth-of-type(4) {
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay: 4s;
+        -o-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+    
+    #menu{
+
+width: 95%;
+margin: 0 auto;
+height: 1700px;
+margin-top: 20px;
+background-color: rgb(247, 231, 231);
+text-align: center;
+padding: 25px 25px 25px 25px;
+align-items: center;
+
+
+    }
+    #menu h1{
+        color: rgb(146, 5, 5);
+        font-size: 24px;
+    }
+    
+    #menu div{
+position: relative;
+width: 95%;
+margin: 0 auto;
+height: 250px;
+background-color: rgb(146, 5, 5);
+padding-top: 10px;
+text-align: left;
+vertical-align: bottom;
+margin-top: 20px;
+
+
+    }
+    #menu div h2{
+        color: white;
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
+    #menu div img{
+        max-width:120px;
+        min-width: 120px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        right: 28%;
+        top: 65%;
+        
+    }
+   
+
+    #menu div ul li{
+        color: white;
+        font-size: 10px;
+    }
+    #menu div p{
+        color: white;
+        margin-left: 15px;
+        font-size: 8px;
+    }
+     
+    }
+    
+    
+

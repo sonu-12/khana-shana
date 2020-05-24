@@ -1,0 +1,500 @@
+
+@media screen and (min-width:700px) and (max-width:899px) {
+
+    *{
+        
+        box-sizing: border-box;
+        font-family: 'Chelsea Market', cursive;
+        
+        
+    }
+    
+    #logo-div{
+
+      background-color: rgb(146, 5, 5);
+      width: 100%;
+      height: 120px;
+      align-items: center;/* text-align: center; */
+      display: flex;
+      
+      padding-top: 1%;
+  }
+  #logo-div img{
+      max-width: 80px;
+      min-width: 40px;
+      height: auto;
+      position: absolute;
+      left: 5%;
+      
+    
+    
+  
+  }
+  #logo-div span{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #logo-div h1{
+      display: inline-block;
+      font-size: 55px;
+      color: white;
+      text-shadow: 15px 15px 15px black;
+      top: 0%;
+      position: relative;
+      
+      
+      
+      
+  }
+    #signup-div{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background-color: black;
+        position: relative;
+    }
+    #signup-div p{
+        color: white;
+        font-size: 18px;
+        display: inline-block;
+        
+    }
+    #signup-div a{
+        display: inline-block;
+        padding: 4px 4px 4px 4px;
+        margin-left: 1%;
+        background-color:rgb(146, 5, 5) ;
+        border-top:rgb(146, 5, 5) ;
+        
+        font-size: 12px;
+    }
+    
+    #container {
+        position:relative;
+        height:550px;
+        width:100%;
+      }
+      #container img {
+        position:absolute;
+        
+        width: 100%;
+        height: 550px;
+        z-index: -1;
+      }
+      @-webkit-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @-moz-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @-o-keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       
+       @keyframes imgFade {
+        0% {
+          opacity:1;
+        }
+        17% {
+          opacity:1;
+        }
+        25% {
+          opacity:0;
+        }
+        92% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+       }
+       #container img {
+        -webkit-animation-name: imgFade;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 8s;
+      
+        -moz-animation-name: imgFade;
+        -moz-animation-timing-function: ease-in-out;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-duration: 8s;
+      
+        -o-animation-name: imgFade;
+        -o-animation-timing-function: ease-in-out;
+        -o-animation-iteration-count: infinite;
+        -o-animation-duration: 8s;
+      
+        animation-name: imgFade;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+      }
+    
+      #container img:nth-of-type(1) {
+        -webkit-animation-delay: 10s;
+        -moz-animation-delay: 10s;
+        -o-animation-delay: 10s;
+        animation-delay: 10s;
+      }
+      #container img:nth-of-type(2) {
+        -webkit-animation-delay: 8s;
+        -moz-animation-delay: 8s;
+        -o-animation-delay: 8s;
+        animation-delay: 8s;
+      }
+      #container img:nth-of-type(3) {
+        -webkit-animation-delay: 6s;
+        -moz-animation-delay: 6s;
+        -o-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      #container img:nth-of-type(4) {
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay: 4s;
+        -o-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+    
+      
+      #navigation{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(146, 5, 5);
+        opacity: 70%;
+        text-align: center;
+        padding-top: 5px;
+        z-index: -1;
+    }
+    
+      ul{
+          width: 70%;
+          margin: 0 auto;
+          list-style: none;
+          display: flex;
+         justify-content: center;
+        justify-content: space-evenly;
+    
+      }
+      .bg{
+          background-color: rgb(146, 5, 5) !important;
+          opacity: 80%;
+          
+      }
+    
+      .nav-link{
+          color: white;
+      }
+      
+      
+    
+      #kindoffood{
+    
+        width: 80%;
+        height: 2500px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+       padding: 3% 3% 3% 3%;
+       background-color: rgb(247, 231, 231);
+       box-shadow: 10px 10px 10px black;
+       
+    
+      }
+      #kindoffood h1:before{
+    
+        content: 'KIND OF FOOD';
+        color: black;
+        font-size: 30px;
+       
+        
+      }
+    
+      #kindoffood h1:after{
+    
+        content: ' WE SERVED';
+        color: rgb(146, 5, 5);
+        font-size: 30px;
+       
+        
+      }
+      
+      #kindoffood table{
+          margin-top: -9%;
+      }
+    
+      #kindoffood table tr td{
+    
+        width: 450px;
+        height: 300px;
+        
+        display: block;
+        margin-top: 20%;
+       
+        
+      }
+    
+      #kindoffood table tr td img{
+          width: 100%;
+          height: 300px;
+          z-index: -1;
+      }
+    
+      #kindoffood table tr td div{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(146, 5, 5);
+        /* opacity: 50%; */
+        display: inline-block;
+        text-align: center;
+        
+    }
+    #kindoffood table tr td div h2{
+    color: white;
+    font-size: 24px;
+    }
+    
+    
+    #glimpse{
+    
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgb(247, 231, 231);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    
+    }
+    #glimpse h1:before{
+    
+    content: 'SOME GLIMPSES';
+    font-size: 30px;
+    
+    }
+    #glimpse h1:after{
+    
+        content: ' OF OUR FOOD';
+        color: rgb(146, 5, 5);
+    font-size: 30px;
+        }
+    
+        @keyframes slidy {
+            0% { left: 0%; }
+            20% { left: 0%; }
+            25% { left: -100%; }
+            45% { left: -100%; }
+            50% { left: -200%; }
+            70% { left: -200%; }
+            75% { left: -300%; }
+            95% { left: -300%; }
+            100% { left: -400%; }
+            }
+            
+            /* body { margin: 0; }  */
+            div#slider { overflow: hidden; }
+            div#slider figure img { width: 10%; float: left; }
+            div#slider figure { 
+              position: relative;
+              width: 500%;
+              margin: 0;
+              margin-top: 3%;
+              left: 0;
+              text-align: left;
+              font-size: 0;
+              animation: 35s slidy infinite; 
+            }
+            
+    #glimpse img{
+    
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
+       
+    }
+    
+    #order{
+    
+        width: 80%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: rgb(247, 231, 231);
+        padding: 10px 10px 10px 10px;
+        box-shadow: 10px 10px 10px black;
+        text-align: center;
+        
+        }
+        #order h1:before{
+    
+            content: 'ENJOy';
+            font-size: 30px;
+            
+            }
+            #order h1:after{
+            
+                content: '  OUR FOOD';
+                color: rgb(146, 5, 5);
+            font-size: 30px;
+                }
+    
+                #order ul{
+                    
+                    display: flex;
+                    justify-content: center;
+                    list-style: none;
+                    
+                    width: 100%;
+                    margin-top: 8%;
+                    justify-content: space-around;
+                }
+    
+                #order ul li{
+    
+                    width: 20%;
+                    height: 100px;
+                    align-items: center;
+                    
+                }
+                #order ul li a{
+                    align-items: center;
+                    text-decoration: none;
+                }
+                #order ul li a div{
+    
+                    width: 100%;
+                    height: 100px;
+                    
+                    align-items: center;
+                    
+                }
+                #order ul li a:hover h2{
+                    color: white;
+                }
+                #order ul li a:hover div{
+    
+    border: 5px;
+    background-color: rgb(146, 5, 5);
+    border-radius: 15px;
+    
+    
+                }
+                #order ul li a div img{
+                    width: 90px;
+                    height: 70px;
+                    display: block;
+                }
+                #order ul li a div h2{ 
+                    font-size: 16px; 
+                    color: rgb(146, 5, 5);
+                    text-decoration: none;   }
+    
+    
+                    #address{
+                        margin-top: 5%;
+                        width: 100%;
+                        height: 300px;
+                        background-color: black;
+                        align-items: center;
+                        text-align: center;
+                        padding: 5px 5px 5px 5px;
+                    }
+                    #address h2{
+                        color: white;
+                        font-size: 20px;
+                    }
+                    #contactlogos{
+                        
+                        display: flex;
+                        list-style: none;
+                        width: 20%;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    #contactlogos li img{
+                         
+                        width: 35px;
+                        height: 35px;
+                    }
+                    #contactlogo li{
+                      align-self: center;
+                    }
+    
+                    #add-ul{
+                        list-style: none;
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    #add-ul h3{
+                    color: white;
+                    font-size: 18px;
+                    }
+                   
+                    #add-ul img{
+                        width: 45px;
+                        height: 35px;
+                    }
+                    #add-ul{
+                        margin-top: 5px;
+                    }
+                    #add-ul h4{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+                    }
+    
+                    footer{
+                        width: 100%;
+                        height:50px;
+                        background-color:rgb(146, 5, 5);
+                        margin-top: 0%;
+                        color: white;
+                        padding: 1% 1% 1% 5%;
+                    }
+    }
